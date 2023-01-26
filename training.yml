@@ -1,0 +1,5 @@
+- name: Ansible Training
+  hosts: training
+  tasks:
+    - name: greet
+      debug: msg="Hello {{ name }}"
